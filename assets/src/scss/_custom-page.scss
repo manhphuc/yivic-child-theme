@@ -1,0 +1,18 @@
+.custom-page {
+  &__widget {
+    &--header {
+      span {
+        color: #1c7430;
+        font-size: 2rem;
+      }
+    }
+  }
+  &__content {
+    &--header {
+      span {
+        color: #005cbf;
+        font-size: 2rem;
+      }
+    }
+  }
+}
