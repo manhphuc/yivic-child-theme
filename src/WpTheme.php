@@ -14,10 +14,10 @@ class WpTheme extends \ManhPhuc\Wp\ManhPhucBase\Component\WpTheme {
      * For handling javascript and stylesheets
      */
     public function wp_enqueue_scripts() {
-        wp_enqueue_style( 'manhphucpro-main', $this->base_url . '/assets/dist/css/main.css', [], $this->version, 'all' );
+        wp_enqueue_style( 'manhphucpro-main', $this->child_base_url . '/assets/dist/css/main.css', [], $this->version, 'all' );
 
         wp_enqueue_script( 'jquery' );
-        wp_enqueue_script( 'manhphucpro-main', $this->base_url . '/assets/dist/js/main.js', [ 'jquery' ], $this->version, true );
+        wp_enqueue_script( 'manhphucpro-main', $this->child_base_url . '/assets/dist/js/main.js', [ 'jquery' ], $this->version, true );
 
         if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
             wp_enqueue_script( 'comment-reply' );

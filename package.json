@@ -1,8 +1,8 @@
 {
-  "name": "yivic-webpack-suite",
+  "name": "yivic-child-theme",
   "version": "1.0.0",
   "license": "GPL-2.0-or-later",
-  "description": "Yivic Package",
+  "description": "This is a child theme for flatsome theme write by PhucNguyen",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
@@ -10,8 +10,8 @@
   },
   "author": "manhphucofficial@yahoo.com",
   "keywords": [
-    "yivic",
-    "dev suite"
+    "dev suite",
+    "wordpress"
   ],
   "devDependencies": {
     "bootstrap": "^4.5.0",
