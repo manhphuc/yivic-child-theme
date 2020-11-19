@@ -3,4 +3,7 @@
 body.yivic-main {
   font-family: $global-font-family;
   background-color: $global-bg-color;
+  h1, h2, h3, h4, h5, h6, .heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a {
+    font-family: $global-font-family;
+  }
 }

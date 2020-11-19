@@ -15,4 +15,6 @@
 @import "base";
 
 // Custom page
-@import "custom-page";
+body.yivic-main {
+  @import "sections";
+}
