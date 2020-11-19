@@ -1,0 +1,30 @@
+{
+  "name": "manhphuc/yivic-child-theme",
+  "type": "wordpress-theme",
+  "license": "GPL-2.0-or-later",
+  "description": "This is a child theme for flatsome theme write by PhucNguyen",
+  "authors": [
+    {
+      "name": "Phuc Nguyen",
+      "role": "Developer",
+      "email": "manhphucofficial@yahoo.com",
+      "homepage": "https://github.com/manhphuc"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.2",
+    "guzzlehttp/guzzle": "^7.0",
+    "illuminate/container": "^7.19",
+    "sunra/php-simple-html-dom-parser": "^1.5"
+  },
+  "replace": {
+    "phpunit/phunit": "~8.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ManhPhucPro\\": "src"
+    }
+  }
+}
