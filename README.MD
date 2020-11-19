@@ -1,3 +1,3 @@
-## Yivic Webpack Suite from manhphucofficial@yahoo.com
-- [Requirements from yivic-webpack-suite](https://github.com/manhphuc/yivic-webpack-suite/blob/master/docs/00-requirements-from%20yivic-webpack-suite.md)
-- [Basic guides](https://github.com/manhphuc/yivic-webpack-suite/blob/master/docs/01-basic-guides.md)
+### Yivic Theme Child from manhphucofficial@yahoo.com
+
+- Since I needed to do a lot of WordPress projects and they have same formula so I decide to create this child theme as a base child theme for all of my WordPress development.
