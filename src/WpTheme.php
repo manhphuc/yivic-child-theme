@@ -8,7 +8,9 @@ class WpTheme extends \ManhPhuc\Wp\ManhPhucBase\Component\WpTheme {
     public function initialize() {
         // For frontend
         add_action( 'wp_enqueue_scripts', [ $this, 'wp_enqueue_scripts' ] );
+        add_filter( 'body_class', [ $this, 'wp_body_classes' ] );
     }
+
     /**
      * This method called when 'wp_enqueue_scripts' fired
      * For handling javascript and stylesheets
@@ -22,6 +24,14 @@ class WpTheme extends \ManhPhuc\Wp\ManhPhucBase\Component\WpTheme {
         if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
             wp_enqueue_script( 'comment-reply' );
         }
+    }
+
+    /**
+     * set main body class
+     */
+    public function wp_body_classes( $classes ) {
+        $classes[] = 'yivic-main';
+        return $classes;
     }
 
 }
